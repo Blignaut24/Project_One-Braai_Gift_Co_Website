@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Hind+Madurai&family=Lora&family=Montserrat&display=swap')
-
+/*FIXME: VAR color*/
 /* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
 :root {
     --white: #F0F0F0;
@@ -44,10 +44,7 @@
     color: var(--blue);
     text-decoration: none;
   }
-  /*background color divs*/
-  .section-plum {  /*TODO: Fix change .section-plum */
-    background-color: var(--green);
-  }
+  
 
 
 /* navigation bar */
@@ -59,7 +56,8 @@ nav {
   }
 
   nav h1 a {
-    font-family: var(--emblem);
+    font-family: var(--em);
+    color:var(--white);
   }
   
   
@@ -77,29 +75,26 @@ nav {
     flex-basis: 100%;
     text-align: center;
   }
-  nav [class*="fa-"] {
-    font-size: 150%;
-    color: var(--aqua);
-  }
-  nav h1 [class*="fa-"] {
-    font-size: 100%;
-  }
+  
   nav a {
-    color: white;
+    color: var(--grey);
     text-decoration: none;
     display: block;
   }
   
+  /*TODO: Figure out or remove this
   nav a:hover,
-  nav [class*="fa-"]:hover {
+  nav [class*="tab"]:hover {
     color: var(--blue);
   }
+  */
   
-  .button {
+  /*FIXME: Why does my order button style? - Tutor*/
+   .button{
     background-color: var(--red);
     color: white;
     padding: 0.5rem;
-    border-radius: 5px;
+    border-radius: 100px;
   }
   
   .button:hover {
@@ -107,5 +102,7 @@ nav {
     background-color: var(--blue);
   }
 
+
+/* Media queries */
 
   
