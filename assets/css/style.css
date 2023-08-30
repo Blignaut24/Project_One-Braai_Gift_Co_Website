@@ -10,10 +10,11 @@
     --green: #748340;
     --orange: #f44336;
     --font-size: 1.3rem;
-    --emblem: aboreto, sans-serif;
-    --headings: lora, monospace;
-    --text: montserrat, monospace;
-    --tabs: "hind-madurai", monospace;
+    /*TODO: Ask mentor if the backup font start with capital letter are acceptable*/
+    --emblem: aboreto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --headings: lora, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --text: montserrat, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --tabs: "hind-madurai", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   /* border box model: https://css-tricks.com/box-sizing/ */
   html {
@@ -40,13 +41,6 @@
     color: #CFCFCF);
   }
   
-  a:hover {
-    color: #27289B;
-    text-decoration: none;
-  }
-  
-
-
 /* navigation bar */
 nav {
     font-family: var(--tabs);
@@ -55,8 +49,12 @@ nav {
     background-color: black;
   }
 
+  /*logo*/
   nav h1 a {
-    font-family: var(--em);
+    font-family: var(--emblem);
+    /*font-size: arial;*/
+    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    font-size: 3rem;
     color: #F0F0F0;
   }
   
@@ -81,8 +79,10 @@ nav {
     display: block;
   }
 
+
   nav .tab {
     color: #CFCFCF;
+    font-size: 1.5em;
   }
 
   /*FIXME: Show mentor - Why not working?
@@ -103,11 +103,13 @@ nav {
     color: white;
     padding: 0.5rem;
     border-radius: 100px;
+    font-size: 1.1rem;
   }
   
   .button:hover {
-    color: white;
-    background-color: #27289B;
+    color: black;
+    background-color: #A62639;
+    
   }
   
 
