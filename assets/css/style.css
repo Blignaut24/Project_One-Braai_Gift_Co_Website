@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Hind+Madurai&family=Lora&family=Montserrat&display=swap')
 /*FIXME: VAR color*/
-/* variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
+/* variables declared here - these are the colors for my pages, as well as the font stacks and sizes. */
 :root {
     --white: #F0F0F0;
     --black: #0d314b;
@@ -13,7 +13,7 @@
     --emblem: aboreto, sans-serif;
     --headings: lora, monospace;
     --text: montserrat, monospace;
-    --tabs: "hind-madurai", monospace; ;
+    --tabs: "hind-madurai", monospace;
   }
   /* border box model: https://css-tricks.com/box-sizing/ */
   html {
@@ -37,11 +37,11 @@
     margin: 0;
   }
   a {
-    color: var(--grey);
+    color: #CFCFCF);
   }
   
   a:hover {
-    color: var(--blue);
+    color: #27289B;
     text-decoration: none;
   }
   
@@ -57,7 +57,7 @@ nav {
 
   nav h1 a {
     font-family: var(--em);
-    color:var(--white);
+    color: #F0F0F0;
   }
   
   
@@ -77,21 +77,29 @@ nav {
   }
   
   nav a {
-    color: var(--grey);
     text-decoration: none;
     display: block;
   }
-  
-  /*TODO: Figure out or remove this
-  nav a:hover,
-  nav [class*="tab"]:hover {
-    color: var(--blue);
+
+  nav .tab {
+    color: #CFCFCF;
   }
-  */
+
+  /*FIXME: Show mentor - Why not working?
+  nav. tab{
+    color: var(--grey);
+  }*/
+
+  nav .tab:hover {
+    color:#666666;
+    text-decoration: underline;
+    size: larger;
+
+  }
   
-  /*FIXME: Why does my order button style? - Tutor*/
+/*order button*/
    .button{
-    background-color: var(--red);
+    background-color: #BC0000;
     color: white;
     padding: 0.5rem;
     border-radius: 100px;
@@ -99,8 +107,12 @@ nav {
   
   .button:hover {
     color: white;
-    background-color: var(--blue);
+    background-color: #27289B;
   }
+  
+
+
+
 
 
 /* Media queries */
