@@ -108,27 +108,34 @@ nav .tab:hover {
 }
 /*Hero image*/
 
-/*#hero-outer {
-  height: 600px;
-  Remove: adjust the height value to make the container smaller 
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 30px;
-  position: relative;
-}
-*/
-
 .hero-image-section {
-  height: 50vh;
+  display: flex;
+  /*flex-wrap: wrap;*/
+}
+
+.hero-image-container {
+  width: 50vw;
+  height: 80vh;
   /* Adjust the height value to resize the image */
   object-fit: cover;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   background: url("../images/hero_image.png") no-repeat;
-  /*transform: scale(1);
-  animation-name: hero-zoom-out;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;*/
   background-size: cover;
- /* background-position: center;*/
 }
+
+.hero-text-container {
+  width: 50vw;
+  height: 80vh;
+  font-family: montserrat, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  font-size: 3rem;
+  background-color: #3D3D3D;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
 /* Media queries */
