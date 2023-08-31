@@ -106,5 +106,26 @@ nav .tab:hover {
   color: black;
   background-color: #a62639;
 }
+/*Hero image*/
+#hero-outer {
+  height: 600px;
+  /* Remove: adjust the height value to make the container smaller */
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+  position: relative;
+}
 
+.hero-image-section {
+  height: 1000px;
+  width: 1000px;
+  /* Adjust the height value to resize the image */
+  object-fit: contain;
+  display: block;
+  background: url("../images/hero_image.png") no-repeat center center;
+  transform: scale(1);
+  animation-name: hero-zoom-out;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
 /* Media queries */
