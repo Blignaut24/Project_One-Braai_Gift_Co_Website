@@ -107,25 +107,28 @@ nav .tab:hover {
   background-color: #a62639;
 }
 /*Hero image*/
-#hero-outer {
+
+/*#hero-outer {
   height: 600px;
-  /* Remove: adjust the height value to make the container smaller */
+  Remove: adjust the height value to make the container smaller 
   width: 100%;
   overflow: hidden;
   margin-bottom: 30px;
   position: relative;
 }
+*/
 
 .hero-image-section {
-  height: 1000px;
-  width: 1000px;
+  height: 50vh;
   /* Adjust the height value to resize the image */
-  object-fit: contain;
+  object-fit: cover;
   display: block;
-  background: url("../images/hero_image.png") no-repeat center center;
-  transform: scale(1);
+  background: url("../images/hero_image.png") no-repeat;
+  /*transform: scale(1);
   animation-name: hero-zoom-out;
   animation-duration: 5s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards;*/
+  background-size: cover;
+ /* background-position: center;*/
 }
 /* Media queries */
