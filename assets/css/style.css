@@ -90,7 +90,7 @@ nav .tab {
 
 nav .tab:hover {
   color: #adadad;
-  text-decoration: underline;
+  border-bottom: 1px solid #892a1c;
 }
 
 /*order button*/
