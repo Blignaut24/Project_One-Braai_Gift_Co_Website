@@ -1,122 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Hind+Madurai&family=Lora&family=Montserrat&display=swap')
-/*FIXME: VAR color*/
-/* variables declared here - these are the colors for my pages, as well as the font stacks and sizes. */
-:root {
-    --white: #F0F0F0;
-    --black: #0d314b;
-    --red: #BC0000;
-    --grey: #CFCFCF;
-    --blue: #27289B;
-    --green: #748340;
-    --orange: #f44336;
-    --font-size: 1.3rem;
-    /*TODO: Ask mentor if the backup font start with capital letter are acceptable*/
-    --emblem: aboreto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    --headings: lora, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    --text: montserrat, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    --tabs: "hind-madurai", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-  /* border box model: https://css-tricks.com/box-sizing/ */
-  html {
-    box-sizing: border-box;
-  }
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
-  /* generic styles for the page */
-  body {
-    padding: 0;
-    margin: 0;
-    font-family: var(--sans);
-    font-size: var(--font-size);
-  }
-  h1,
-  h2,
-  h3 {
-    margin: 0;
-  }
-  a {
-    color: #CFCFCF);
-  }
-  
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Hind+Madurai&family=Lora&family=Montserrat&display=swap")
+  /*FIXME: VAR color*/
+  /* variables declared here - these are the colors for my pages, as well as the font stacks and sizes. */:
+  root {
+  --white: #f0f0f0;
+  --black: #0d314b;
+  --red: #bc0000;
+  --grey: #cfcfcf;
+  --blue: #27289b;
+  --green: #748340;
+  --orange: #f44336;
+  --font-size: 1.3rem;
+  /*TODO: Ask mentor if the backup font start with capital letter are acceptable*/
+  --emblem: aboreto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --headings: lora, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --text: montserrat, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --tabs: "hind-madurai", Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+}
+/* border box model: https://css-tricks.com/box-sizing/ */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* generic styles for the page */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--sans);
+  font-size: var(--font-size);
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+a {
+  color: #cfcfcf;
+}
+
 /* navigation bar */
 nav {
-    font-family: var(--tabs);
-    font-size: 80%;
-    padding: 1rem;
-    background-color: black;
-  }
+  font-family: var(--tabs);
+  font-size: 80%;
+  padding: 1rem;
+  background-color: black;
+}
 
-  /*logo*/
-  nav h1 a {
-    font-family: var(--emblem);
-    /*font-size: arial;*/
-    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
-    font-size: 3rem;
-    color: #F0F0F0;
-  }
-  
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-  }
-  nav li:first-child {
-    flex-basis: 100%;
-    text-align: center;
-  }
-  
-  nav a {
-    text-decoration: none;
-    display: block;
-  }
+/*logo*/
+nav h1 a {
+  font-family: Aboreto, sans-serif;
+  font-size: 3rem;
+  color: white;
+}
 
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  /*flex-flow: row wrap;*/
+  flex-direction: unset;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+nav li:first-child {
+  flex-basis: 100%;
+  /*text-align: center;*/
+}
 
-  nav .tab {
-    color: #CFCFCF;
-    font-size: 1.5em;
-  }
+nav a {
+  text-decoration: none;
+  display: block;
+}
 
-  /*FIXME: Show mentor - Why not working?
+nav .tab {
+  color: ;
+  font-size: 1.5em;
+}
+
+/*FIXME: Show mentor - Why not working?
   nav. tab{
     color: var(--grey);
   }*/
 
-  nav .tab:hover {
-    color:#666666;
-    text-decoration: underline;
-    size: larger;
+nav .tab:hover {
+  color: #adadad;
+  text-decoration: underline;
+}
 
-  }
-  
 /*order button*/
-   .button{
-    background-color: #BC0000;
-    color: white;
-    padding: 0.5rem;
-    border-radius: 100px;
-    font-size: 1.1rem;
-  }
-  
-  .button:hover {
-    color: black;
-    background-color: #A62639;
-    
-  }
-  
+.button {
+  background-color: #bc0000;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 100px;
+  font-size: 1.1rem;
+}
 
-
-
-
+.button:hover {
+  color: black;
+  background-color: #a62639;
+}
 
 /* Media queries */
-
-  
