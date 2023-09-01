@@ -1,5 +1,7 @@
 # Braai Gifting Co
 
+<img src="assets/images/mock-up.png">
+
 Braai Gifting Co is a fictional online retailer that specializes in selling barbecue gift packages. The company aims to design an attractive website that embodies its brand essence, "Give the gift of braai and create lasting memories," targeting people who love to barbecue. The website features a static and responsive design created using HTML and CSS, with the aim of providing a stress-free shopping experience for customers.
 
 The website includes the following pages:
