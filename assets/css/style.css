@@ -141,6 +141,13 @@ nav .tab:hover {
   display: flex;
 }
 
+/*Order form page*/
+/*Navbar visibility*/
+.form-container {
+  z-index: -1;
+  padding-top: 5rem;
+}
+
 /* Media queries */
 /*TODO: Complete this*/
 /* CSS rules for devices with a width between 360 and 639 pixels */
