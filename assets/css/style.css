@@ -180,9 +180,25 @@ nav .tab:hover {
     background-color: #a62639;
   }
 
-
   a .button {
     width: 10vw;
+  }
+
+  /*Hero image and text section */
+  .hero-image-section {
+    flex-direction: column;
+
+  }
+
+  .hero-image-container {
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .hero-text-container {
+    width: 100vw;
+    height: 25vh;
+    font-size: 1.5rem;
   }
 
 /*Form page*/
