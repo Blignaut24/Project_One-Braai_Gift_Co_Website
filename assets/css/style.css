@@ -145,12 +145,34 @@ nav .tab:hover {
 /*TODO: Complete this*/
 /* CSS rules for devices with a width between 360 and 639 pixels */
 @media screen and (min-width: 360px) and (max-width: 639px) {
+  /* navigation bar */
   nav ul {
     display:block; /*TODO:(REMOVE TIP): Help makes things vertical*/
   }
-  .button {
-    padding-left: 0rem;
+
+  nav .tab {
+    /*TODO: Start here*/
   }
+
+  /*order button*/
+  #gallery_button {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .button {
+    padding: 0.2rem;
+    padding-left: 0rem;
+    width: max-content; /*TODO: Fix the Order Button Strecth (Remove Comment)*/
+    border-radius: 10px;
+    */
+
+  }
+  .button:hover {
+    color: black;
+    background-color: #a62639;
+  }
+
 
   a .button {
     width: 10vw;
