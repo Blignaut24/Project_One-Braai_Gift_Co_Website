@@ -185,6 +185,13 @@ nav .tab:hover {
     width: 10vw;
   }
 
+/*Form page*/
+/*Typeform */
+div.form-container {
+  height: 100vh !important;
+  
+}
+
 }
 
 /*TODO: Complete this*/
