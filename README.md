@@ -13,3 +13,267 @@ The website includes the following pages:
 This website is the first of five projects that need to be completed in order to receive a diploma in Software Development from The Code Institute.
 
 A live version of the project can be found here: https://blignaut24.github.io/Project_One-Braai_Gift_Co_Website/
+
+## Table of Content
+
+------
+------
+# Table of Content
+
+- [Braai Gifting Co](#braai-gifting-co)
+  - [Table of Content](#table-of-content)
+- [Table of Content](#table-of-content-1)
+  - [User Experience (UX)](#user-experience-ux)
+    - [User Demographic](#user-demographic)
+    - [User Stories](#user-stories)
+    - [Wireframes](#wireframes)
+      - [Desktop](#desktop)
+- [](#)
+      - [Mobile](#mobile)
+- [](#-1)
+    - [Design](#design)
+  - [Color](#color)
+    - [Typography](#typography)
+    - [Images](#images)
+  - [Features](#features)
+    - [Existing Features](#existing-features)
+      - [Navigation Bar](#navigation-bar)
+      - [Icon Container Bar](#icon-container-bar)
+      - [Box Package Menu](#box-package-menu)
+      - [Footer](#footer)
+      - [Gallery Page](#gallery-page)
+      - [Order Form](#order-form)
+    - [Features Left to Implement](#features-left-to-implement)
+  - [Technologies used](#technologies-used)
+    - [Language Used](#language-used)
+  - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Testing](#testing)
+- [](#-2)
+  - [Development and Deployment](#development-and-deployment)
+  - [Content](#content)
+  - [Media](#media)
+- [](#-3)
+  - [Credits](#credits)
+------
+
+
+------
+
+
+
+## User Experience (UX)
+
+### User Demographic
+
+This website is intended for:
+
+- Individuals who frequently buy barbeque products and want a stress free online experience.
+- Individuals searching for a unique gift.
+- Individuals who buy meat online.
+
+### User Stories
+
+As a user/ potential customer of this website:
+
+- I must be able to understand within five seconds what this website is about and how it will satisfy my barbecue needs.
+- Quickly learn and understand what braaing is.
+- Understand what products and services are offered and how to order them.
+
+### Wireframes
+
+Wireframes were created for the home, gallery, and sign-up pages for both desktop and mobile. Some aspects of the wireframes have been modified during the website's production.
+
+#### Desktop
+
+#
+
+#### Mobile
+
+#
+
+### Design
+
+The design objective for the Braai Gifting Co website was to create a clean and simplistic layout that conveyed a sense of luxury. The website aimed to provide a stress-free shopping experience for customers looking for unique barbecue gift packages. The color scheme, fonts, and images were carefully selected to reinforce the brand message of luxury and simplicity while being easy to read and visually appealing. The website included features such as a navigation bar, icon container bar, box package menu, footer, gallery page, and order form, all aimed at improving user accessibility and navigation.
+
+## Color
+
+The colors used in the website design are associated with specific meanings or emotions. The first-tier colors, including white, black, red, and grey, are inspired by the barbecue theme. Second-tier colors are used less frequently and are intended to draw the user's attention.
+
+![Primary Color Table](assets\images\color_table.png)
+
+
+
+![](assets\images\second_color_table.png)
+
+| Color Code | Name   | Color Semantics            |
+| ---------- | ------ | -------------------------- |
+| #F0F0F0    | White  | Background                 |
+| #0d314b    | Black  | Text                       |
+| #BC0000    | Red    | Call-to-Action (CTA)       |
+| #CFCFCF    | Grey   | Secondary background color |
+| #27289B    | Blue   | Information                |
+| #748340    | Green  | Success                    |
+| #f44336    | Orange | Warning                    |
+| #892a1c    | Red    | Tab hover                  |
+| #a62639    | Red    | CTA hover                  |
+| #ffffff    | White  | Default color              |
+
+### Typography
+
+The selection of the fonts reinforce the brand message of luxury and simplicity while being easy to read. 
+
+| Font         | Font Semantics |
+| ------------ | -------------- |
+| Montserrat   | Text           |
+| Lora         | Headings       |
+| Hind Madurai | Tabs           |
+| Aboreto      | Logo           |
+
+### Images
+
+## Features
+
+### Existing Features
+
+#### Navigation Bar
+
+- The navigation bar is located on every page of the website and serves as the primary navigation panel.
+
+- Each button on the navigation bar provides user feedback and accessibility when hovered over.
+
+- The navbar's simplistic design makes it very intuitive for the user to use.
+
+  ![](assets/images/navbar.png)
+
+#### Icon Container Bar
+
+- Icon container bar is the secondary navigation panel.
+
+- It is only found on the landing page at the end of each section.
+
+- The bar only contain internationally recognized icons to help improve user accessibility.
+
+  ![](assets/images/icon_container_bar.png)
+
+#### Box Package Menu
+
+- The change in format help draw user attention.
+
+- This improves user accessibility by prioritizing information.
+
+- The price is the only text in red, which helps prioritize information for user accessibility.
+
+  ![](assets/images//box_menu.png)
+
+#### Footer
+
+- The footer is present on every page of the website, and it is fully responsive.
+
+- No text-only icons are used in the footer to help improve accessibility and user navigation.
+
+- The icon provide buttons connect to social media sites where the company it registered and opens up in a new tab.
+
+  ![](assets/images//footer.png)
+
+#### Gallery Page
+
+- The gallery page contains no text, except for the header and footer.
+
+- This improves user accessibility, especially for those with visual impairments or language barriers.
+
+  ![](assets/images//gallery_img.png)
+
+#### Order Form
+
+- Typeform was chosen due to the large amount of information that needs to be captured in a business transaction.
+
+- This can be overwhelming and often provides the user with an unpleasant experience.
+
+- Using Typeform, the questions were presented in a visually friendly way.
+
+- It also helps prevent inaccurate client data by providing feedback to the user if the information required by the business is incorrect.
+
+  ![](assets/images//order_form.png)
+
+### Features Left to Implement
+
+- When a user hovers over them, the icons in the icon container bar change.
+- Introducing a video on landing page demonstrating the product.
+- Add more photos of satisfied customers, meals, and outdoor events to the gallery page.
+
+## Technologies used
+
+### Language Used
+
+- HTML5
+- CSS3
+
+## Frameworks, Libraries & Programs Used
+
+- Visual Studio Code:
+
+  - VS code was used as a Integrated Development Environment (IDE).
+
+- Chrome DevTools:
+
+  - Chrome DevTools was used to consistently check the site in terms of design output (html, css).
+
+- Google Chrome:
+
+  - Google Chrome was used as my primary web browser.
+
+- Firefox:
+
+  - Firefox was used as secondary web browser for testing purposed.
+
+- Polypane:
+
+  - Polypane was used a multi-page browser to see how their website looks across different devices and screen sizes simultaneously.
+
+- Coolers:
+
+  - Coolers website used for generating color schemes.
+
+- Am I Responsive:
+
+  - Am I Responsive takes mockup screenshots of various breakpoints for my [README.md](http://readme.md/) file.
+
+- Typeform:
+
+  - Typeform is a platform for creating online forms and surveys with a focus on user experience.
+
+  
+
+  ## Testing
+
+  #
+
+  ## Development and Deployment
+
+  The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+  1. Navigate to GitHub.
+  2. Choose the desired GitHub repository.
+  3. Select settings from the top menu bar.
+  4. On the left hand side, under the code and automation section, choose pages.
+  5. Under the build and deployment heading, set branch as main and click save.
+  6. The website will deploy, a link to the project will be seen at the top of the page.
+
+## Content
+
+The website content is original. 
+
+## Media
+
+#
+
+## Credits
+
+- Media Breakpoint Table:
+  - [Screen Size Map](https://screensizemap.com/)
+  - [Browse Stack](https://www.browserstack.com/guide/what-are-css-and-media-query-breakpoints)
+
+
+
+
+
