@@ -11,9 +11,9 @@
   --orange: #f44336;
   --font-size: 1.3rem;
   /*TODO: Ask mentor if the backup font start with capital letter are acceptable*/
-  --emblem: aboreto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  --headings: lora, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  --text: montserrat, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --emblem: Aboreto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --headings: Lora, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --text: Montserrat, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   --tabs: "hind-madurai", Impact, Haettenschweiler, "Arial Narrow Bold",
     sans-serif;
 }
@@ -141,6 +141,277 @@ nav .tab:hover {
   display: flex;
 }
 
+/*-----------------------------------------introduction section*/
+
+.introduction {
+  height: fit-content;
+  background-color: white;
+}
+.introduction-heading h2,
+.introduction-sub-heading h2 {
+  text-align: center;
+}
+
+/*icons: shopping & box gallery */
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  /* Remove: design help*/
+  margin: 25px 450px;
+}
+
+.icon-container div {
+  margin: 25px 35px;
+  height: fit-content;
+  background-color: white;
+}
+
+/*Horizontal line */
+.horizontal-line {
+  border-top: 5px solid #1e1e1e;
+  /* Can adjust line properties here e.g, thickness */
+  margin-top: 20px;
+}
+
+/* horizontal line */
+.horizontal-line {
+  border-top: 5px solid #1e1e1e;
+  /* Can adjust line properties here e.g, thickness */
+  margin-top: 20px;
+}
+
+/* What is a braai ? section */
+.braai {
+  height: fit-content;
+  /* Adjust the height of the box container*/
+  background-color: white;
+  /* Remove: design help*/
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+
+.braai-image {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.braai-sub-title {
+  margin-top: 25px;
+}
+
+.braai-paragraph {
+  margin-top: 25px;
+}
+
+
+
+
+/*what is in the box? section*/
+.box-image {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.box-sub-title {
+  background-color: white;
+  /* Remove: design help*/
+  height: fit-content;
+  margin-top: 25px;
+}
+
+.box-paragraph {
+  background-color: white;
+  /* Remove: design help*/
+  height: fit-content;
+  margin-top: 25px;
+}
+
+/* -------------------------------------------------What is on the menu?*/
+
+.menu-section {
+  height: fit-content;
+  /* Adjust the height of the box container*/
+  background-color: white;
+  /* Remove: design help*/
+}
+
+.menu-title {
+  background-color: white;
+  /* Remove: design help*/
+  height: fit-content;
+}
+
+.menu-image {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.menu-sub-title {
+  background-color: white;
+  /* Remove: design help*/
+  height: fit-content;
+  margin-top: 25px;
+}
+
+.menu-paragraph {
+  background-color: white;
+  /* Remove: design help*/
+  height: fit-content;
+  margin-top: 25px;
+}
+
+/* --------------------------------------------What are the box packages?*/
+
+#package {
+  height: fit-content;
+  /* Adjust the height of the box container*/
+  background-color: white;
+  /* Remove: design help*/
+}
+
+#packages-title {
+  background-color: white;
+  /* Remove: design help*/
+  height: fit-content;
+}
+
+#pricing {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-table {
+  border: 1px solid black;
+  color: #fff;
+  padding: 1%;
+  text-align: center;
+  margin: 2%;
+  width: 23%;
+}
+
+.pricing-table h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: Lora, sans-serif;
+  color:#000
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+.price-tag {
+  color: #dc0000;
+  font-size: xx-large;
+  font-family: Aboreto, sans-serif;
+}
+
+/*-----------------------------------------------------------Recipe of the month*/
+
+#recipe {
+  height: fit-content;
+  /* Adjust the height of the box container*/
+  background-color: white;
+  /* Remove: design help*/
+}
+
+#recipe-title {
+  background-color: white;
+  /* Remove: design help*/
+  height: fit-content;
+}
+
+#recipe-video {
+  left: 70%;
+}
+
+/* -----------------------------------------------------------Contact information*/
+
+#contact-details {
+  height: fit-content;
+  /* Adjust the height of the box container*/
+  background-color: white;
+  /* Remove: design help*/
+}
+
+#contact-details-title {
+  background-color: white;
+  /* Remove: design help*/
+  height: fit-content;
+}
+
+.contact-sub-title {
+  background-color: white;
+  /* Remove: design help*/
+  height: fit-content;
+  margin-top: 25px;
+}
+
+.contact-paragraph {
+  background-color: white;
+  /* Remove: design help*/
+  height: fit-content;
+  margin-top: 25px;
+  text-align: left;
+}
+
+/* -----------------------------------------------------------Footer*/
+
+footer {
+  height: fit-content;
+  background-color: #000;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #ffffff;
+}
+
+/* gallery */
+
+#assortment-bbq-photos {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+}
+
+#assortment-bbq-photos > img {
+  width: 100%;
+}
+
+
 /*Order form page*/
 /*Navbar visibility*/
 .form-container {
@@ -157,15 +428,16 @@ div.form-container {
 
 /*gallery page*/
 #photos {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
 }
 
 #photos > img {
-    width: 100%;
+  width: 100%;
 }
+
 
 
 /* Media queries */
