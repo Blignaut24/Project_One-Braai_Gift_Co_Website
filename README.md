@@ -90,9 +90,9 @@ Wireframes were created for the home, gallery, and sign-up pages for both deskto
 
 #### Mobile
 
-![mobile_landing_page](assets/images//mobile_one.png)
+![mobile_landing_page](assets/images/mobile_one.png)
 
-![mobile_price](assets/images//mobile_price.png)
+![mobile_price](assets/images/mobile_price.png)
 
 ### Design
 
