@@ -140,15 +140,11 @@ nav .tab:hover {
 
 div.introduction-sub-heading {
   text-align: center;
-  padding-left: 5rem;
-  padding-right: 5rem;
   font-size: 1.2rem;
 }
 
 div.introduction-paragraph {
   text-align: center;
-  padding-left: 20rem;
-  padding-right: 20rem;
   font-size: 1.2rem;
 }
 
@@ -161,15 +157,11 @@ h2 {
 
 p {
   text-align: center;
-  padding-left: 20rem;
-  padding-right: 20rem;
   font-size: 1.2rem;
 }
 
 h3 {
   text-align: center;
-  padding-left: 10rem;
-  padding-right: 10rem;
   font-size: 1.2rem;
 }
 
@@ -307,6 +299,8 @@ h3 {
 .pricing {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  width: 80vw;
 }
 
 .pricing-table {
@@ -470,12 +464,11 @@ div.form-container {
 
 
 /* Media queries */
-/*TODO: Complete this*/
 /* CSS rules for devices with a width between 360 and 639 pixels */
 @media screen and (min-width: 360px) and (max-width: 639px) {
   /* navigation bar */
   nav ul {
-    display:block; /*TODO:(REMOVE TIP): Help makes things vertical*/
+    display:block;
   }
 
   nav .tab {
