@@ -270,20 +270,20 @@ nav .tab:hover {
 
 /* --------------------------------------------What are the box packages?*/
 
-#package {
+.package {
   height: fit-content;
   /* Adjust the height of the box container*/
   background-color: white;
   /* Remove: design help*/
 }
 
-#packages-title {
+.packages-title {
   background-color: white;
   /* Remove: design help*/
   height: fit-content;
 }
 
-#pricing {
+.pricing {
   display: flex;
   justify-content: center;
 }
@@ -329,33 +329,33 @@ ul li {
 
 /*-----------------------------------------------------------Recipe of the month*/
 
-#recipe {
+.recipe {
   height: fit-content;
   /* Adjust the height of the box container*/
   background-color: white;
   /* Remove: design help*/
 }
 
-#recipe-title {
+.recipe-title {
   background-color: white;
   /* Remove: design help*/
   height: fit-content;
 }
 
-#recipe-video {
+.recipe-video {
   left: 70%;
 }
 
 /* -----------------------------------------------------------Contact information*/
 
-#contact-details {
+.contact-details {
   height: fit-content;
   /* Adjust the height of the box container*/
   background-color: white;
   /* Remove: design help*/
 }
 
-#contact-details-title {
+.contact-details-title {
   background-color: white;
   /* Remove: design help*/
   height: fit-content;
