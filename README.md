@@ -253,6 +253,10 @@ The selection of the fonts reinforce the brand message of luxury and simplicity 
 
   - Typeform is a platform for creating online forms and surveys with a focus on user experience.
 
+- Figma:
+
+  - Figma is a web-based design and prototyping tool that I used for the wireframes.
+
   
 
   ## Testing
