@@ -464,15 +464,21 @@ div.form-container {
 
 
 /* Media queries */
+/* CSS rules for devices with a width between 320 and 639 pixels */ 
+@media screen and (min-width: 320px) and (max-width: 639px){
+/*Hero image and text section */
+.hero-image-section {
+  flex-direction: column;
+}
+
+
+}
+
 /* CSS rules for devices with a width between 360 and 639 pixels */
 @media screen and (min-width: 360px) and (max-width: 639px) {
   /* navigation bar */
   nav ul {
     display:block;
-  }
-
-  nav .tab {
-    /*TODO: Start here*/
   }
 
   /*order button*/

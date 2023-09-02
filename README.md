@@ -54,6 +54,7 @@ A live version of the project can be found here: https://blignaut24.github.io/Pr
     - [HTML](#html)
     - [CSS](#css)
     - [Lighthouse Testing](#lighthouse-testing)
+    - [Media Breakpoint Table](#media-breakpoint-table)
   - [Development and Deployment](#development-and-deployment)
   - [Content](#content)
   - [Media](#media)
@@ -317,6 +318,23 @@ No errors were returned when the site was passed through the official [Jigsaw va
 
 ### Lighthouse Testing
 ![lighthouse_test](assets/images/lighthouse_test.png)
+
+### Media Breakpoint Table
+
+The guidelines for CSS media breakpoints were compiled from various sources listed in the Credits section of the README file to create a table of the most commonly used breakpoints worldwide. The device labels are used in the CSS code.
+
+| Resolution | Device            | Percentage of Usage |
+| ---------- | ----------------- | :------------------ |
+| 360x640    | Extra-Extra-Small | 7.28%               |
+| 375x667    | Extra-Small       | 3.75%               |
+| 414x896    | Small             | 4.58%               |
+| 1366x768   | Extra-Large       | 8.44%               |
+| 1536x864   | Extra-Extra-Large | 3.88%               |
+| 1920x1080  | Extra-Extra-Large | 8.89%               |
+
+Note, that mobile screens smaller than 306 x 640 can only view the website horizontally.
+
+
 
   ## Development and Deployment
 
