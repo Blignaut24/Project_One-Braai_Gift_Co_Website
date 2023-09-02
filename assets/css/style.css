@@ -150,6 +150,44 @@ nav .tab:hover {
 .introduction-heading h2,
 .introduction-sub-heading h2 {
   text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 2.5rem;
+}
+
+div.introduction-sub-heading {
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 1.2rem;
+}
+
+div.introduction-paragraph {
+  text-align: center;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  font-size: 1.2rem;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+p {
+  text-align: center;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  font-size: 1.2rem;
+}
+
+h3 {
+  text-align: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  font-size: 1.2rem;
 }
 
 /*icons: shopping & box gallery */
@@ -353,6 +391,14 @@ ul li {
   /* Adjust the height of the box container*/
   background-color: white;
   /* Remove: design help*/
+}
+
+section.contact-details {
+  text-align: center;
+}
+
+div.contact-paragraph {
+  text-align: center;
 }
 
 .contact-details-title {
