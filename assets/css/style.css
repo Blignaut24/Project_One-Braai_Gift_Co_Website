@@ -151,8 +151,9 @@ nav .tab:hover {
 /*Form page*/
 /*Typeform */
 div.form-container {
-  height: 80%;
-  }
+  height: 100vh !important;
+  
+}
 
 /*gallery page*/
 #photos {
