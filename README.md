@@ -239,7 +239,7 @@ The selection of the fonts reinforce the brand message of luxury and simplicity 
 
 - Am I Responsive:
 
-  - Am I Responsive takes mockup screenshots of various breakpoints for my [README.md](http://readme.md/) file.
+  - Am I Responsive takes mockup screenshots of various breakpoints for my README.md file.
 
 - Typeform:
 

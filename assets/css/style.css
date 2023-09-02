@@ -1,23 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Hind+Madurai&family=Lora&family=Montserrat&display=swap")
-  /*FIXME: VAR color*/
-  /* variables declared here - these are the colors for my pages, as well as the font stacks and sizes. */:
-  root {
-  --white: #f0f0f0;
-  --black: #0d314b;
-  --red: #bc0000;
-  --grey: #cfcfcf;
-  --blue: #27289b;
-  --green: #748340;
-  --orange: #f44336;
-  --font-size: 1.3rem;
-  /*TODO: Ask mentor if the backup font start with capital letter are acceptable*/
-  --emblem: Aboreto, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  --headings: Lora, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  --text: Montserrat, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  --tabs: "hind-madurai", Impact, Haettenschweiler, "Arial Narrow Bold",
-    sans-serif;
-}
-/* border box model: https://css-tricks.com/box-sizing/ */
+@import url("<https://fonts.googleapis.com/css2?family=Aboreto&family=Hind+Madurai&family=Lora&family=Montserrat&display=swap>");
+
+/* border box model: <https://css-tricks.com/box-sizing/> */
 html {
   box-sizing: border-box;
 }
@@ -30,8 +13,8 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: var(--sans);
-  font-size: var(--font-size);
+  font-family: Montserrat, sans-serif;
+  font-size: 1.3rem;
 }
 h1,
 h2,
@@ -82,7 +65,6 @@ nav a {
 }
 
 nav .tab {
-  color: ;
   font-size: 1.5em;
 }
 
@@ -126,6 +108,7 @@ nav .tab:hover {
   background: url("../images/hero_image.png") no-repeat;
   background-size: cover;
 }
+
 
 .hero-text-container {
   width: 50vw;
@@ -510,7 +493,7 @@ div.form-container {
     padding-left: 0rem;
     width: max-content; /*TODO: Fix the Order Button Strecth (Remove Comment)*/
     border-radius: 10px;
-    */
+  }
 
   }
   .button:hover {
@@ -544,8 +527,6 @@ div.form-container {
 div.form-container {
   height: 100vh !important;
   
-}
-
 }
 
 /*TODO: Complete this*/
