@@ -45,11 +45,19 @@ A live version of the project can be found here: https://blignaut24.github.io/Pr
     - [Language Used](#language-used)
   - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
   - [Testing](#testing)
-- [](#)
+    - [Navigation Bar](#navigation-bar-1)
+    - [Landing Page](#landing-page)
+    - [Footer](#footer-1)
+    - [Gallery Page](#gallery-page-1)
+    - [Order Form](#order-form-1)
+  - [Validator Testing](#validator-testing)
+    - [HTML](#html)
+    - [CSS](#css)
+    - [Lighthouse Testing](#lighthouse-testing)
   - [Development and Deployment](#development-and-deployment)
   - [Content](#content)
   - [Media](#media)
-- [](#-1)
+- [](#)
   - [Credits](#credits)
 ------
 
@@ -249,7 +257,61 @@ The selection of the fonts reinforce the brand message of luxury and simplicity 
 
   ## Testing
 
-  #
+  
+
+### Navigation Bar
+
+| Feature             | Expect                                                       | Action                                   | Result |
+| ------------------- | ------------------------------------------------------------ | ---------------------------------------- | ------ |
+| Logo                | When the logo is clicked it will return the user to the home page | Clicked logo                             | Pass   |
+| Gallery nav button  | When clicked it will direct the user to the gallery page in the same tab | Clicked gallery nav button               | Pass   |
+| Order nav button    | When clicked it will direct the user to the order form in the same tab | Clicked order nav button                 | Pass   |
+| Nav menu responsive | Website is responsive to multiple different screen sizes     | Resized browser on multiple screen sizes | Pass   |
+
+### Landing Page
+
+| Feature               | Expect                                               | Action                                   | Result |
+| --------------------- | ---------------------------------------------------- | ---------------------------------------- | ------ |
+| Text is responsive    | Text responsive to multiple different screen sizes   | Resized browser on multiple screen sizes | Pass   |
+| Images are responsive | Images responsive to multiple different screen sizes | Resized browser on multiple screen sizes | Pass   |
+
+### Footer
+
+| Feature              | Expect                                               | Action                                     | Result |
+| -------------------- | ---------------------------------------------------- | ------------------------------------------ | ------ |
+| Footer icon links    | Link are not broken                                  | Click on each footer icon on all the pages | Pass   |
+| Footer is responsive | Footer responsive to multiple different screen sizes | Footer browser on multiple screen sizes    | Pass   |
+
+### Gallery Page
+
+| Feature                       | Expect                                               | Action                                   | Result |
+| ----------------------------- | ---------------------------------------------------- | ---------------------------------------- | ------ |
+| Gallery images are responsive | Images responsive to multiple different screen sizes | Resized browser on multiple screen sizes | Pass   |
+
+### Order Form
+
+| Feature                  | Expect                                                       | Action                                                       | Result |
+| ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
+| Order form validation    | Error messages will appear if the form is submitted without all fields filled, a correct email and the checkbox checked | Submit form without any input                                | pass   |
+| Order form submit button | Form submits when the submit button is clicked               | Clicked the submit button on the form                        | pass   |
+| Order form responsive    | Form should be responsive on all screen sizes                | Resized browser and checked form on different screen resolutions | pass   |
+
+## Validator Testing
+
+### HTML
+
+No errors were returned when site was passed through the official [W3C Validator]
+
+![](assets/images//html_validation.png)
+
+### CSS
+
+No errors were returned when the site was passed through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fleoniemclaughlin7.github.io%2FVincent-Van-Gogh%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
+
+![](assets/images//css_validation.png)
+
+
+### Lighthouse Testing
 
   ## Development and Deployment
 
