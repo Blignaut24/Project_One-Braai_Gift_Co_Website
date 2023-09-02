@@ -14,15 +14,14 @@ This website is the first of five projects that need to be completed in order to
 
 A live version of the project can be found here: https://blignaut24.github.io/Project_One-Braai_Gift_Co_Website/
 
-## Table of Content
+
 
 ------
 ------
 # Table of Content
 
 - [Braai Gifting Co](#braai-gifting-co)
-  - [Table of Content](#table-of-content)
-- [Table of Content](#table-of-content-1)
+- [Table of Content](#table-of-content)
   - [User Experience (UX)](#user-experience-ux)
     - [User Demographic](#user-demographic)
     - [User Stories](#user-stories)
@@ -99,11 +98,11 @@ The design objective for the Braai Gifting Co website was to create a clean and 
 
 The colors used in the website design are associated with specific meanings or emotions. The first-tier colors, including white, black, red, and grey, are inspired by the barbecue theme. Second-tier colors are used less frequently and are intended to draw the user's attention.
 
-![Primary Color Table](assets\images\color_table.png)
+![Primary Color Table](assets/images/color_table.png)
 
 
 
-![](assets\images\second_color_table.png)
+![](assets/images/second_color_table.png)
 
 | Color Code | Name   | Color Semantics            |
 | ---------- | ------ | -------------------------- |
