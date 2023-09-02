@@ -306,16 +306,17 @@ The selection of the fonts reinforce the brand message of luxury and simplicity 
 
 No errors were returned when site was passed through the official [W3C Validator]
 
-![](assets/images//html_validation.png)
+![html_validation](assets/images//html_validation.png)
 
 ### CSS
 
 No errors were returned when the site was passed through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fleoniemclaughlin7.github.io%2FVincent-Van-Gogh%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
 
-![](assets/images//css_validation.png)
+![css_validation](assets/images//css_validation.png)
 
 
 ### Lighthouse Testing
+![lighthouse_test](assets/images/lighthouse_test.png)
 
   ## Development and Deployment
 
