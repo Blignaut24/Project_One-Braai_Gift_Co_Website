@@ -27,9 +27,7 @@ A live version of the project can be found here: https://blignaut24.github.io/Pr
     - [User Stories](#user-stories)
     - [Wireframes](#wireframes)
       - [Desktop](#desktop)
-- [](#)
       - [Mobile](#mobile)
-- [](#-1)
     - [Design](#design)
   - [Color](#color)
     - [Typography](#typography)
@@ -47,11 +45,11 @@ A live version of the project can be found here: https://blignaut24.github.io/Pr
     - [Language Used](#language-used)
   - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
   - [Testing](#testing)
-- [](#-2)
+- [](#)
   - [Development and Deployment](#development-and-deployment)
   - [Content](#content)
   - [Media](#media)
-- [](#-3)
+- [](#-1)
   - [Credits](#credits)
 ------
 
@@ -84,11 +82,17 @@ Wireframes were created for the home, gallery, and sign-up pages for both deskto
 
 #### Desktop
 
-#
+![landing_page](assets/images//landing_page.png)
+
+![product_display](assets/images/display_page.png)
+
+![price_box](assets/images/price_box.png)
 
 #### Mobile
 
-#
+![mobile_landing_page](assets/images//mobile_one.png)
+
+![mobile_price](assets/images//mobile_price.png)
 
 ### Design
 
