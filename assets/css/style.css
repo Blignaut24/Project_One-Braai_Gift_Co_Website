@@ -148,6 +148,25 @@ nav .tab:hover {
   padding-top: 5rem;
 }
 
+/*Form page*/
+/*Typeform */
+div.form-container {
+  height: 80%;
+  }
+
+/*gallery page*/
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
+
 /* Media queries */
 /*TODO: Complete this*/
 /* CSS rules for devices with a width between 360 and 639 pixels */
