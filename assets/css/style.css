@@ -462,11 +462,10 @@ div.form-container {
 }
 
 
-
 /* Media queries */
 
 /* CSS rules for devices with a width between 320 and 640 pixels */ 
-@media screen and (min-width: 320px) and (max-width: 640px){
+@media screen and (min-width: 320px) and (max-width: 480px){
 
 /*navigation bar*/
 nav h1 a {
@@ -480,7 +479,7 @@ nav h1 a {
 }
 
 /* CSS rules for horizontal screens between 360px and 640px */
-@media screen and (min-width: 320px) and (max-width: 640px) and (orientation: landscape) {
+@media screen and (min-width: 360px) and (max-width: 640px) and (orientation: landscape) {
 
 /*hero image and text section*/
 .hero-image-section {
@@ -503,130 +502,80 @@ nav h1 a {
 }
 }
 
-/*FIXME*/
-/* CSS rules for devices with a width between 1536 and 864 pixels */ 
-@media screen and (min-width: 1536px) and (max-width: 864px){
+/*suggested css breakpoints Source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488*/
 
-/*navigation bar*/
-nav ul {
-display: flex;
-flex-direction: row;
-}
+/*TODO start here*/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
 
-
-
-/*hero image and text section*/
-.hero-image-section {
-  display: flex;
-  flex-direction: row;
-}
-
-.hero-image-container {
-  width: 50vw;
-  height: 80vh;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-.hero-text-container {
-  width: 50vw;
-  height: 80vh;
-  font-size: 1.5rem;
-}
-
-
-}
-
-/*TODO: *Start here*/
-/* CSS rules for horizontal screens between 414px and 896px */
-@media screen and (min-width: 414px) and (max-width: 896px) and (orientation: landscape) {
-
-/* navigation bar */
-nav ul{
-  display: flex;
-  flex-direction: row;
-}
+@media (min-width: 1281px) {
   
-/*Hero image and text section */
-.hero-image-section {
+  nav ul li {
     display: flex;
     flex-direction: row;
   }
   
-  .hero-image-container {
-    width: 50vw;
-    height: 100vh;
-    object-fit: cover;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background: url("../images/hero_image.png") no-repeat;
-    background-size: cover;
-  }
-  
-  .hero-text-container {
-    width: 50vw;
-    height: 100vh;
-    font-size: 2.5rem;
-  }
-
-  .introduction-heading {
-    margin-top: 2.5vh;
-  }
-
-} 
-
-
-/*FIXME*/
-/*TODO: Continue here*/
-/*TODO: Complete this*/
-/* CSS rules for horizontal screens between 1536px and 864px */
-@media screen and (min-width: 1536px) and (max-width: 864px) {
-
-/* navigation bar */
-nav ul{
-  display: flex;
-  flex-direction: row;
 }
-  
-/*Hero image and text section */
-.hero-image-section {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .hero-image-container {
-    width: 50vw;
-    height: 100vh;
-    object-fit: cover;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background: url("../images/hero_image.png") no-repeat;
-    background-size: cover;
-  }
-  
-  .hero-text-container {
-    width: 50vw;
-    height: 100vh;
-    font-size: 2.5rem;
-  }
 
-  .introduction-heading {
-    margin-top: 2.5vh;
-  }
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
 }
 
 
-
   
-
-
-/*TODO: Complete this*/
-/* CSS rules for devices with a width of 1920 pixels */
-/*@media screen and (min-width: 1920px) and (max-width: 1920px) {
-
-}*/
+  
 
 
