@@ -213,14 +213,6 @@ p.welcome-paragraph {
   text-align: center;
 }
 
-/*.braai-sub-title {
-  margin-top: ;
-}
-
-.braai-paragraph {
-  margin-top: 25px;
-}*/
-
 .braai-sub-title {
   padding: 2vh 15vw 0 15vw;
 }
@@ -248,7 +240,7 @@ p.welcome-paragraph {
   margin-top: 25px;
 }
 
-/*What is on the menu?*/
+/*what is on the menu?*/
 
 .menu-section {
   height: fit-content;
@@ -279,7 +271,7 @@ p.welcome-paragraph {
   margin-top: 25px;
 }
 
-/* --------------------------------------------What are the box packages?*/
+/*what are the box packages?*/
 
 .package {
   height: fit-content;
@@ -511,7 +503,42 @@ nav h1 a {
 }
 }
 
-/*TODO: Next problem screen size*/
+/*FIXME*/
+/* CSS rules for devices with a width between 1536 and 864 pixels */ 
+@media screen and (min-width: 1536px) and (max-width: 864px){
+
+/*navigation bar*/
+nav ul {
+display: flex;
+flex-direction: row;
+}
+
+
+
+/*hero image and text section*/
+.hero-image-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-image-container {
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.hero-text-container {
+  width: 50vw;
+  height: 80vh;
+  font-size: 1.5rem;
+}
+
+
+}
+
+/*TODO: *Start here*/
 /* CSS rules for horizontal screens between 414px and 896px */
 @media screen and (min-width: 414px) and (max-width: 896px) and (orientation: landscape) {
 
@@ -550,18 +577,51 @@ nav ul{
 
 } 
 
-/*TODO: Continue here/
-/* CSS rules for devices with a width of 1366 pixels */
-@media screen and (min-width: 1366px) and (max-width: 1366px) {
 
+/*FIXME*/
+/*TODO: Continue here*/
+/*TODO: Complete this*/
+/* CSS rules for horizontal screens between 1536px and 864px */
+@media screen and (min-width: 1536px) and (max-width: 864px) {
 
+/* navigation bar */
+nav ul{
+  display: flex;
+  flex-direction: row;
+}
+  
+/*Hero image and text section */
+.hero-image-section {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .hero-image-container {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: url("../images/hero_image.png") no-repeat;
+    background-size: cover;
+  }
+  
+  .hero-text-container {
+    width: 50vw;
+    height: 100vh;
+    font-size: 2.5rem;
+  }
+
+  .introduction-heading {
+    margin-top: 2.5vh;
+  }
 }
 
-/*TODO: Complete this*/
-/* CSS rules for devices with a width of 1536 pixels */
-/*@media screen and (min-width: 1536px) and (max-width: 1536px) {
+
+
   
-}*/
+
 
 /*TODO: Complete this*/
 /* CSS rules for devices with a width of 1920 pixels */
@@ -569,10 +629,4 @@ nav ul{
 
 }*/
 
-
-/* TODO: Complete this */
-/*CSS rules for devices with a width of 2024px pixels */
-/*@media (max-width: 2024px) and (max-height: 1273px) {
-  
-}*/
 
