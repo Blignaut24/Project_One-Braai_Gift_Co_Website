@@ -515,6 +515,39 @@ nav h1 a {
       flex-direction: row;
       align-items: center;
     }
+  
+/*hero image and text section*/
+.hero-image-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-image-container {
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  
+}
+
+.hero-text-container {
+  width: 50vw;
+  height: 80vh;
+  font-size: 2.5rem;
+}
+}
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 
 /*hero image and text section*/
@@ -535,17 +568,7 @@ nav h1 a {
   height: 80vh;
   font-size: 2.5rem;
 }
-  
 
-
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-  /* CSS */
   
 }
 
@@ -556,7 +579,30 @@ nav h1 a {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   
-  /* CSS */
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+/*hero image and text section*/
+.hero-image-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-image-container {
+  width: 50vw;
+  height: 60vh;
+  display: flex;
+  
+}
+
+.hero-text-container {
+  width: 50vw;
+  height: 60vh;
+  font-size: 2rem;
+}
   
 }
 
@@ -567,7 +613,18 @@ nav h1 a {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
-  /* CSS */
+  .hero-image-container {
+    width: 50vw;
+    height: 75vh;
+    display: flex;
+    
+  }
+  
+  .hero-text-container {
+    width: 50vw;
+    height: 75vh;
+    font-size: 2rem;
+  }
   
 }
 
@@ -588,9 +645,69 @@ nav h1 a {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+/*navigation bar*/
+nav .tabs {
+  font-size: 1.5em;
+}
+
+.button {
+  font-size: 1.5rem;
+}
+
+
+/*hero image and text section*/
+.hero-image-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image-container {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
   
-  /* CSS */
+}
+
+.hero-text-container {
+  width: 100vw;
+  height: 10vh;
+  font-size: 1rem;
+}
+
+}
+
+/*FIXME*/
+@media (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+
+/*navigation bar*/
+nav .tabs {
+  font-size: 1.2em;
+}
+
+.button {
+  font-size: 1rem;
+}
+
+/*hero image and text section*/
+.hero-image-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image-container {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
   
+}
+
+.hero-text-container {
+  width: 100vw;
+  height: 10vh;
+  font-size: 10rem;
+}
+
 }
 
 
