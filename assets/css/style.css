@@ -34,6 +34,7 @@ h2 {
 h3 {
   text-align: center;
   font-size: 1.2rem;
+  padding-top: 3vh;
 }
 
 
@@ -44,7 +45,7 @@ p {
 }
 
 a {
-  color: #cfcfcf;
+  color: white;
 }
 
 /* navigation bar */
@@ -303,7 +304,7 @@ p.welcome-paragraph {
 
 .pricing-table {
   border: 1px solid black;
-  color: #fff;
+  color: white;
   padding: 1%;
   text-align: center;
   margin: 2%
@@ -331,16 +332,16 @@ ul {
 
 ul li {
   font-size: 1.2rem;
-  color: #aaa;
+  color: #00072D;
 }
 
 .price-tag {
-  color: #dc0000;
+  color: #BC0000;
   font-size: xx-large;
   font-family: Aboreto, sans-serif;
 }
 
-/*-----------------------------------------------------------Recipe of the month*/
+/*Recipe of the month*/
 
 .recipe {
   height: fit-content;
@@ -359,7 +360,7 @@ ul li {
   left: 70%;
 }
 
-/* -----------------------------------------------------------Contact information*/
+/*Contact information*/
 
 .contact-details {
   height: fit-content;
@@ -397,7 +398,7 @@ div.contact-paragraph {
   text-align: left;
 }
 
-/* -----------------------------------------------------------Footer*/
+/* Footer*/
 
 footer {
   height: fit-content;
@@ -406,6 +407,7 @@ footer {
 
 ul.social-networks {
   background-color: #000;
+  margin-bottom: 0;
 }
 
 .social-networks {
@@ -420,7 +422,7 @@ ul.social-networks {
   font-size: 160%;
   margin: 1%;
   padding: 5%;
-  color: #ffffff;
+  color: white;
 }
 
 /* gallery */
@@ -434,6 +436,10 @@ ul.social-networks {
 
 #assortment-bbq-photos > img {
   width: 100%;
+}
+
+#photos {
+  top: margin 0;
 }
 
 
@@ -467,8 +473,8 @@ div.form-container {
 
 /* Media queries */
 
-/* CSS rules for devices with a width between 320 and 639 pixels */ 
-@media screen and (min-width: 320px) and (max-width: 639px){
+/* CSS rules for devices with a width between 320 and 640 pixels */ 
+@media screen and (min-width: 320px) and (max-width: 640px){
 
 /*navigation bar*/
 nav h1 a {
@@ -481,57 +487,75 @@ nav h1 a {
 }
 }
 
-/* CSS rules for horizontal screens between 360px and 639px */
+/* CSS rules for horizontal screens between 360px and 640px */
 @media screen and (min-width: 320px) and (max-width: 640px) and (orientation: landscape) {
-/*TODO: Continue here*/
+
+/*hero image and text section*/
 .hero-image-section {
   display: flex;
   flex-direction: row;
 }
 
 .hero-image-container {
-  width: 50%;
+  width: 50vw;
   height: 80vh;
-  object-fit: cover;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  background: url("../images/hero_image.png") no-repeat;
-  background-size: cover;
 }
 
 .hero-text-container {
-  width: 50%;
+  width: 50vw;
   height: 80vh;
   font-size: 1.5rem;
 }
+}
 
+/*TODO: Next problem screen size*/
+/* CSS rules for horizontal screens between 414px and 896px */
+@media screen and (min-width: 414px) and (max-width: 896px) and (orientation: landscape) {
+
+/* navigation bar */
+nav ul{
+  display: flex;
+  flex-direction: row;
+}
   
+/*Hero image and text section */
+.hero-image-section {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .hero-image-container {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: url("../images/hero_image.png") no-repeat;
+    background-size: cover;
+  }
+  
+  .hero-text-container {
+    width: 50vw;
+    height: 100vh;
+    font-size: 2.5rem;
+  }
 
-/* CSS rules for devices with a width between 360 and 639 pixels */
-@media screen and (min-width: 360px) and (max-width: 640px) {
-
+  .introduction-heading {
+    margin-top: 2.5vh;
+  }
 
 } 
-  
-  
 
-/*TODO: Complete this*/
-/* CSS rules for devices with a width between 375 and 667 pixels */
-/*@media screen and (min-width: 375px) and (max-width: 667px) {
-  
-}*/
-
-/*TODO: Complete this*/
-/* CSS rules for devices with a width between 414 and 896 pixels */
-/*@media screen and (min-width: 414px) and (max-width: 896px) {
-}*/
-
-/*TODO: Complete this*/
+/*TODO: Continue here/
 /* CSS rules for devices with a width of 1366 pixels */
-/*@media screen and (min-width: 1366px) and (max-width: 1366px) {
-  
-}*/
+@media screen and (min-width: 1366px) and (max-width: 1366px) {
+
+
+}
 
 /*TODO: Complete this*/
 /* CSS rules for devices with a width of 1536 pixels */
