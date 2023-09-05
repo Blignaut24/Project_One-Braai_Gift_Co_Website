@@ -460,6 +460,18 @@ div.form-container {
 }
 
 
+/*modified code snippet to solve footer layout problem on gallery page*/
+/*source: https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/*/
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-footer {
+  flex: 1;
+}
+
 /* Media queries */
 
 /*suggested css breakpoints Source: https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488*/
@@ -653,38 +665,8 @@ object-fit: contain;
 
 }
 
-/*FIXME*/
-@media (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
 
-/*navigation bar*/
-nav .tabs {
-  font-size: 1.2em;
-}
 
-.button {
-  font-size: 1rem;
-}
-
-/*hero image and text section*/
-.hero-image-section {
-  display: flex;
-  flex-direction: column;
-}
-
-.hero-image-container {
-  width: 100vw;
-  height: 50vh;
-  display: flex;
-  
-}
-
-.hero-text-container {
-  width: 100vw;
-  height: 10vh;
-  font-size: 10rem;
-}
-
-}
 
 
   
