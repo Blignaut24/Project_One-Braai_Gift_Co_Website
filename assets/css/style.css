@@ -121,8 +121,6 @@ nav .tab:hover {
 }
 
 .hero-image-container {
-  width: 100vw;
-  height: 50vh;
   object-fit: cover;
   display: flex;
   flex-wrap: wrap;
@@ -131,8 +129,6 @@ nav .tab:hover {
 }
 
 .hero-text-container {
-  width: 100vw;
-  height: 25vh;
   font-family: montserrat, Impact, Haettenschweiler, "Arial Narrow Bold",
     sans-serif;
   font-size: 1.5rem;
@@ -438,7 +434,7 @@ ul.social-networks {
 /*Navbar visibility*/
 .form-container {
   z-index: -1;
-  padding-top: 5rem;
+  
 }
 
 /*Form page*/
@@ -594,6 +590,14 @@ div.form-container {
     height: 75vh;
     font-size: 2rem;
   }
+
+  /*gallery page*/
+#photos {
+  clear: both;
+  line-height: 0;
+  column-count: 2;
+  column-gap: 0;
+}
   
 }
 
@@ -637,6 +641,14 @@ object-fit: contain;
   font-size: 1.2rem;
 }
 
+/*gallery page*/
+#photos {
+  clear: both;
+  line-height: 0;
+  column-count: 2;
+  column-gap: 0;
+}
+
 }
 
 
@@ -647,24 +659,19 @@ object-fit: contain;
 
 @media (min-width: 320px) and (max-width: 479px) {
 
-/*hero image and text section*/
-.hero-image-section {
-  display: flex;
-  flex-direction: column;
-}
-
-.hero-image-container {
-  width: 100vw;
-  height: 50vh;  
-}
-
-.hero-text-container {
-  width: 100vw;
-  height: 10vh;
-  font-size: 1rem;
-}
+  /*gallery page*/
+  #photos {
+    clear: both;
+    line-height: 0;
+    column-count: 1;
+    column-gap: 0;
+  }
 
 }
+
+
+
+
 
 
 
