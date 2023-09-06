@@ -99,7 +99,6 @@ nav .tab:hover {
   object-fit:cover;
   display:flex;
   flex-wrap:wrap;
-  background:url("../images/hero_image.png") no-repeat;
   background-size:cover;
 }
 .hero-text-container {
@@ -317,28 +316,33 @@ div.contact-paragraph {
   margin-top:25px;
   text-align:left;
 }
-/* Footer*/
 
+/* Footer*/
 footer {
-  height:fit-content;
-  background-color:#000;
+  height: fit-content;
+  background-color: #000;
 }
+
 ul.social-networks {
-  background-color:#000;
-  margin-bottom:0;
+  background-color: #000;
+  margin-bottom: 0;
 }
+
 .social-networks {
-  text-align:center;
+  text-align: center;
 }
+
 .social-networks > li {
-  display:inline;
+  display: inline;
 }
+
 .social-networks i {
-  font-size:160%;
-  margin:1%;
-  padding:5%;
-  color:white;
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: white;
 }
+
 /* gallery */
 
 #assortment-bbq-photos {
@@ -505,6 +509,7 @@ nav. tab {
   font-size:1.5rem;
 }
 /*hero image and text section*/
+/*FIXME Hero Image
 .hero-image-section {
   display:flex;
   flex-direction:column;
@@ -519,6 +524,8 @@ nav. tab {
   height:17vh;
   font-size:1.2rem;
 }
+*/
+
 /*gallery page*/
 #photos {
   clear:both;
