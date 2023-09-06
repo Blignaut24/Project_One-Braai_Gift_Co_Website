@@ -92,25 +92,47 @@ nav .tab:hover {
   background-color:#a62639;
 }
 /*hero image and text section*/
+/*TODO: Hero Image Problem*/
 .hero-image-section {
-  flex-direction:column;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
+
 .hero-image-container {
+  width: 100vw;
+  height: 35vh;
   object-fit:cover;
   display:flex;
-  flex-wrap:wrap;
+  flex-direction: column;
+  flex-wrap:nowrap;
   background-size:cover;
+  
 }
+
+.hero-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .hero-text-container {
+  width:100vw;
+  height:15vh;
+  font-size:1.2rem;
+  object-fit:cover;
+  display:flex;
+  flex-direction: column;
+  flex-wrap:nowrap;
+  background-size:cover;
   font-family:montserrat,Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;
-  font-size:1.5rem;
   background-color:#3D3D3D;
   color:white;
   justify-content:center;
   align-items:center;
   text-align:center;
-  display:flex;
 }
+
 /*introduction section*/
 
 .introduction {
@@ -451,38 +473,47 @@ div.form-container {
 */
 
 @media (min-width:768px) and (max-width:1024px) {
-  /*hero image and text section*/
-.hero-image-section {
+/*navigation bar*/ 
+nav ul {
   display:flex;
   flex-direction:row;
+  align-items:center;
 }
+
+/*hero image and text section*/
+/*FIXME:Space below the hero image*/
+.hero-image-section {
+display: flex;
+flex-direction: row;
+}
+
 .hero-image-container {
   width:50vw;
-  height:60vh;
-  display:flex;
+  height:50vh;
+  background-color: pink;
 }
 .hero-text-container {
   width:50vw;
-  height:60vh;
+  height:50vh;
   font-size:2rem;
 }
-}/* 
+/* 
   ##Device = Tablets,Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
 
 @media (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
   /*hero image and text section*/
-  .hero-image-container {
+ /*FIXME:  .hero-image-container {
   width:50vw;
-  height:75vh;
+  height:50vh;
   display:flex;
 }
 .hero-text-container {
   width:50vw;
-  height:75vh;
+  height:50vh;
   font-size:2rem;
-}
+}*/
 /*gallery page*/
 #photos {
   clear:both;
@@ -509,22 +540,22 @@ nav. tab {
   font-size:1.5rem;
 }
 /*hero image and text section*/
-/*FIXME Hero Image
+/*FIXME Hero Image*/
 .hero-image-section {
   display:flex;
   flex-direction:column;
 }
 .hero-image-container {
   width:100vw;
-  height:80vh;
+  height:50vh;
   object-fit:contain;
 }
 .hero-text-container {
   width:100vw;
-  height:17vh;
+  height:15vh;
   font-size:1.2rem;
 }
-*/
+
 
 /*gallery page*/
 #photos {
