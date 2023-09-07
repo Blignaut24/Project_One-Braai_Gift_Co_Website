@@ -260,13 +260,14 @@ height:fit-content;
   margin:auto;
 }
 .pricing-table {
-  border:1px solid black;
-  color:white;
-  padding:1%;
-  text-align:center;
-  margin:2%
-width:23%;
+  border: 1px solid black;
+  color: white;
+  padding: 1%;
+  text-align: center;
+  margin: 2%
+  width: 23%;
 }
+
 .pricing-table h2 {
   font-size:2rem;
   font-weight:normal;
@@ -371,9 +372,7 @@ ul.social-networks {
 #assortment-bbq-photos > img {
   width:100%;
 }
-#photos {
-  top:margin 0;
-}
+
 /*Order form page*/
 /*Navbar visibility*/
 .form-container {
@@ -621,7 +620,7 @@ nav ul {
 nav h1 a {
   font-size:2.5rem;
 }
-nav. tab {
+nav, .tab {
   font-size:1.1rem;
 }
 .button {
