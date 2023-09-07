@@ -94,31 +94,17 @@ background-color:#a62639;
 /*hero image and text section*/
 /*TODO: Hero Image Problem*/
 .hero-image-section {
-<<<<<<< HEAD
   display:flex;
   flex-direction: column;
   flex-wrap: nowrap;
-=======
 flex-direction:column;
->>>>>>> 99b4532e52985e59047541dedb96948faa41696a
 }
 
 .hero-image-container {
-<<<<<<< HEAD
-  width: 100vw;
-  height: 35vh;
-  object-fit:cover;
-  display:flex;
-  flex-direction: column;
-  flex-wrap:nowrap;
-  background-size:cover;
-  
-=======
 object-fit:cover;
 display:flex;
 flex-wrap:wrap;
 background-size:cover;
->>>>>>> 99b4532e52985e59047541dedb96948faa41696a
 }
 
 .hero-image-container img {
@@ -128,7 +114,6 @@ background-size:cover;
 }
 
 .hero-text-container {
-<<<<<<< HEAD
   width:100vw;
   height:15vh;
   font-size:1.2rem;
@@ -143,16 +128,6 @@ background-size:cover;
   justify-content:center;
   align-items:center;
   text-align:center;
-=======
-font-family:montserrat,Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;
-font-size:1.5rem;
-background-color:#3D3D3D;
-color:white;
-justify-content:center;
-align-items:center;
-text-align:center;
-display:flex;
->>>>>>> 99b4532e52985e59047541dedb96948faa41696a
 }
 
 /*introduction section*/
@@ -361,38 +336,37 @@ margin-top:25px;
 text-align:left;
 }
 
-/* Footer*/
+/* footer*/
 footer {
-height: fit-content;
-background-color: #000;
+  height: fit-content;
+  background-color: #000;
 }
 
 ul.social-networks {
-background-color: #000;
-margin-bottom: 0;
+  background-color: #000;
+  margin-bottom: 0;
 }
 
 .social-networks {
-text-align: center;
+  text-align: center;
 }
 
 .social-networks > li {
-display: inline;
+  display: inline;
 }
 
 .social-networks i {
-font-size: 160%;
-margin: 1%;
-padding: 5%;
-color: white;
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: white;
 }
 
 /* gallery */
-
 #assortment-bbq-photos {
 clear:both;
 line-height:0;
-column-count:4;
+column-count:1;
 column-gap:0;
 }
 #assortment-bbq-photos > img {
@@ -406,21 +380,50 @@ top:margin 0;
 .form-container {
 z-index:-1;
 }
-/*Form page*/
-/*Typeform */
-div.form-container {
-height:100vh !important;
+
+/*gallery - footer*/
+footer {
+  height: fit-content;
+  background-color: #000;
 }
+
+ul.social-networks {
+  background-color: #000;
+  margin-bottom: 0;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: white;
+}
+
 /*gallery page*/
 #photos {
 clear:both;
 line-height:0;
-column-count:4;
+column-count:1;
 column-gap:0;
 }
 #photos > img {
 width:100%;
 }
+
+/*Form page*/
+/*Typeform */
+div.form-container {
+  height:100vh !important;
+  }
+
 /*modified code snippet to solve footer layout problem on gallery page*/
 /*source:https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/*/
 .site {
@@ -495,18 +498,11 @@ font-size:2.5rem;
 */
 
 @media (min-width:768px) and (max-width:1024px) {
-<<<<<<< HEAD
 /*navigation bar*/ 
 nav ul {
   display:flex;
   flex-direction:row;
   align-items:center;
-=======
-/*hero image and text section*/
-.hero-image-section {
-display:flex;
-flex-direction:row;
->>>>>>> 99b4532e52985e59047541dedb96948faa41696a
 }
 
 /*hero image and text section*/
@@ -517,7 +513,6 @@ flex-direction: row;
 }
 
 .hero-image-container {
-<<<<<<< HEAD
   width:50vw;
   height:50vh;
   background-color: pink;
@@ -527,51 +522,14 @@ flex-direction: row;
   height:50vh;
   font-size:2rem;
 }
+}
 /* 
   ##Device = Tablets,Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
 
 @media (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
-  /*hero image and text section*/
- /*FIXME:  .hero-image-container {
-  width:50vw;
-  height:50vh;
-  display:flex;
-}
-.hero-text-container {
-  width:50vw;
-  height:50vh;
-  font-size:2rem;
-}*/
-=======
-width:50vw;
-height:60vh;
-display:flex;
-}
-.hero-text-container {
-width:50vw;
-height:60vh;
-font-size:2rem;
-}
-}/* 
-##Device = Tablets,Ipads (landscape)
-##Screen = B/w 768px to 1024px
-*/
 
-@media (min-width:768px) and (max-width:1024px) and (orientation:landscape) {
-/*hero image and text section*/
-.hero-image-container {
-width:50vw;
-height:75vh;
-display:flex;
-}
-.hero-text-container {
-width:50vw;
-height:75vh;
-font-size:2rem;
-}
->>>>>>> 99b4532e52985e59047541dedb96948faa41696a
 /*gallery page*/
 #photos {
 clear:both;
@@ -604,7 +562,6 @@ display:flex;
 flex-direction:column;
 }
 .hero-image-container {
-<<<<<<< HEAD
   width:100vw;
   height:50vh;
   object-fit:contain;
@@ -613,16 +570,6 @@ flex-direction:column;
   width:100vw;
   height:15vh;
   font-size:1.2rem;
-=======
-width:100vw;
-height:80vh;
-object-fit:contain;
-}
-.hero-text-container {
-width:100vw;
-height:17vh;
-font-size:1.2rem;
->>>>>>> 99b4532e52985e59047541dedb96948faa41696a
 }
 
 
@@ -639,11 +586,7 @@ column-gap:0;
 */
 
 @media (min-width:320px) and (max-width:479px) {
-/*gallery page*/
-#photos {
-clear:both;
-line-height:0;
-column-count:1;
-column-gap:0;
-}
+
+
+
 }
