@@ -226,7 +226,7 @@ height:fit-content;
   flex-direction:column;
 }
 .menu-image img {
-  width:80%;
+  width:50%;
   object-fit:cover;
 }
 .menu-sub-title {
@@ -469,9 +469,19 @@ div.form-container {
 
 /*menu section*/
 .menu-image img {
-  width: 40%;
+  width: 20%;
 }
+
+/*gallery*/
+#photos {
+clear: both;
+line-height: 0;
+column-count: 4;
+column-gap: 0;
 }
+
+}
+
 /* 
 ##Device = Laptops,Desktops
 ##Screen = B/w 1025px to 1280px
@@ -499,7 +509,31 @@ nav ul {
   height:80vh;
   font-size:2.5rem;
 }
-}/* 
+
+/*braai section*/
+.braai-image img{
+  width: 40%;
+}
+
+/*box section*/
+.box-image img {
+  width: 40%;
+}
+
+/*menu section*/
+.menu-image img {
+  width: 20%;
+}
+
+/*gallery*/
+#photos {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+  }
+}
+/* 
 ##Device = Tablets,Ipads (portrait)
 ##Screen = B/w 768px to 1024px
 */
@@ -520,13 +554,35 @@ nav ul {
 .hero-image-container {
   width:50vw;
   height:50vh;
-  background-color:pink;
 }
 .hero-text-container {
   width:50vw;
   height:50vh;
   font-size:2rem;
 }
+
+/*braai section*/
+.braai-image img{
+  width: 40%;
+}
+
+/*box section*/
+.box-image img {
+  width: 40%;
+}
+
+/*menu section*/
+.menu-image img {
+  width: 20%;
+}
+
+/*gallery*/
+#photos {
+  clear: both;
+  line-height: 0;
+  column-count: 3;
+  column-gap: 0;
+  }
 }/* 
   ##Device = Tablets,Ipads (landscape)
   ##Screen = B/w 768px to 1024px
@@ -537,8 +593,23 @@ nav ul {
 #photos {
   clear:both;
   line-height:0;
-  column-count:2;
+  column-count:3;
   column-gap:0;
+}
+
+/*braai section*/
+.braai-image img{
+  width: 40%;
+}
+
+/*box section*/
+.box-image img {
+  width: 40%;
+}
+
+/*menu section*/
+.menu-image img {
+  width: 20%;
 }
 }/* 
 ##Device = Low Resolution Tablets,Mobiles (Landscape)
@@ -571,6 +642,22 @@ nav. tab {
   height:15vh;
   font-size:1.2rem;
 }
+
+/*braai section*/
+.braai-image img{
+  width: 40%;
+}
+
+/*box section*/
+.box-image img {
+  width: 40%;
+}
+
+/*menu section*/
+.menu-image img {
+  width: 20%;
+}
+
 /*gallery page*/
 #photos {
   clear:both;
@@ -578,10 +665,4 @@ nav. tab {
   column-count:2;
   column-gap:0;
 }
-}/* 
-##Device = Most of the Smartphones Mobiles (Portrait)
-##Screen = B/w 320px to 479px
-*/
-
-@media (min-width:320px) and (max-width:479px) {
-  }
+}
