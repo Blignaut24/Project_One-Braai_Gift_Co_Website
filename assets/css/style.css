@@ -92,7 +92,6 @@ color:black;
 background-color:#a62639;
 }
 /*hero image and text section*/
-/*TODO: Hero Image Problem*/
 .hero-image-section {
   display:flex;
   flex-direction: column;
@@ -170,7 +169,9 @@ border-top:5px solid #1e1e1e;
 /* Can adjust line properties here e.g,thickness */
 margin-top:20px;
 }
-/* What is a braai ? section */
+
+/*TODO*/
+/* braai section*/
 .braai {
 height:fit-content;
 /* Adjust the height of the box container*/
@@ -179,8 +180,14 @@ background-color:white;
 object-fit:cover;
 object-position:50% 50%;
 }
+
+.braai-image img{
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+
+}
 .braai-image {
-height:10%;
 display:flex;
 justify-content:center;
 text-align:center;
@@ -188,14 +195,22 @@ text-align:center;
 .braai-sub-title {
 padding:2vh 15vw 0 15vw;
 }
+
+/*TODO*/
 /*what is in the box? section*/
 .box-image {
-height:10%;
 display:flex;
 justify-content:center;
 align-items:center;
 flex-direction:column;
 }
+
+.box-image img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .box-sub-title {
 background-color:white;
 /* Remove:design help*/
@@ -218,12 +233,18 @@ background-color:white;
 height:fit-content;
 }
 .menu-image {
-height:10%;
 display:flex;
 justify-content:center;
 align-items:center;
 flex-direction:column;
 }
+
+.menu-image img {
+  width: 80%;
+  height: 20%;
+  object-fit: cover;
+}
+
 .menu-sub-title {
 background-color:white;
 height:fit-content;
