@@ -239,7 +239,7 @@ height:fit-content;
   height:fit-content;
   margin-top:25px;
 }
-/*what are the box packages?*/
+/*box packages*/
 
 .package {
 height:fit-content;
@@ -253,7 +253,7 @@ height:fit-content;
   display:flex;
   justify-content:center;
   flex-direction:column;
-  width:80vw;
+  width: 70vw;
   margin:auto;
 }
 .pricing-table {
@@ -261,7 +261,7 @@ height:fit-content;
   color: white;
   padding: 1%;
   text-align: center;
-  width: 101%;
+  width: 100%;
 }
 
 .pricing-table h2 {
@@ -467,6 +467,15 @@ div.form-container {
   width: 20%;
 }
 
+/*box packages*/
+.pricing {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 80vw;
+  margin: auto;
+}
+
 /*gallery*/
 #photos {
 clear: both;
@@ -515,6 +524,14 @@ nav ul {
   width: 40%;
 }
 
+.pricing {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 80vw;
+  margin: auto;
+}
+
 /*menu section*/
 .menu-image img {
   width: 20%;
@@ -561,14 +578,14 @@ nav ul {
   width: 40%;
 }
 
-/*box section*/
-.box-image img {
-  width: 40%;
-}
-
 /*menu section*/
 .menu-image img {
   width: 20%;
+}
+
+/*box section*/
+.box-image img {
+  width: 40%;
 }
 
 /*gallery*/
@@ -595,6 +612,14 @@ nav ul {
 /*braai section*/
 .braai-image img{
   width: 40%;
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 45vw;
+  margin: auto;
 }
 
 /*box section*/
@@ -652,6 +677,7 @@ nav, .tab  {
 .menu-image img {
   width: 20%;
 }
+
 
 /*gallery page*/
 #photos {
