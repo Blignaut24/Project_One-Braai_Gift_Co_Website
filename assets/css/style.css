@@ -1,5 +1,6 @@
 
-@import url("<https://fonts.googleapis.com/css2?family=Aboreto&family=Hind+Madurai&family=Lora&family=Montserrat&display=swap>");
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Hind+Madurai&family=Lora:wght@500&family=Montserrat&display=swap');
+
   /* border box model:<https://css-tricks.com/box-sizing/> */
 html {
   box-sizing:border-box;
