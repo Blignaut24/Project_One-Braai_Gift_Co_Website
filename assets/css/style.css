@@ -242,14 +242,11 @@ height:fit-content;
 /*what are the box packages?*/
 
 .package {
-  height:fit-content;
-  /* Adjust the height of the box container*/
+height:fit-content;
 background-color:white;
-  /* Remove:design help*/
 }
 .packages-title {
   background-color:white;
-  /* Remove:design help*/
 height:fit-content;
 }
 .pricing {
@@ -264,8 +261,7 @@ height:fit-content;
   color: white;
   padding: 1%;
   text-align: center;
-  margin: 2%
-  width: 23%;
+  width: 101%;
 }
 
 .pricing-table h2 {
@@ -620,7 +616,7 @@ nav ul {
 nav h1 a {
   font-size:2.5rem;
 }
-nav, .tab {
+nav, .tab  {
   font-size:1.1rem;
 }
 .button {
