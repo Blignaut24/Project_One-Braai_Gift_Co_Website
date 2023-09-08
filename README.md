@@ -1,3 +1,5 @@
+
+
 # Braai Gifting Co
 
 <img src="assets/images/mock-up.webp">
@@ -14,58 +16,11 @@ This website is the first of five projects that need to be completed in order to
 
 A live version of the project can be found here: https://blignaut24.github.io/Project_One-Braai_Gift_Co_Website/
 
-
-
-------
-------
-# Table of Content
-
-- [Braai Gifting Co](#braai-gifting-co)
-- [Table of Content](#table-of-content)
-  - [User Experience (UX)](#user-experience-ux)
-    - [User Demographic](#user-demographic)
-    - [User Stories](#user-stories)
-    - [Wireframes](#wireframes)
-      - [Desktop](#desktop)
-      - [Mobile](#mobile)
-    - [Design](#design)
-  - [Color](#color)
-    - [Typography](#typography)
-    - [Images](#images)
-  - [Features](#features)
-    - [Existing Features](#existing-features)
-      - [Navigation Bar](#navigation-bar)
-      - [Icon Container Bar](#icon-container-bar)
-      - [Box Package Menu](#box-package-menu)
-      - [Footer](#footer)
-      - [Gallery Page](#gallery-page)
-      - [Order Form](#order-form)
-    - [Features Left to Implement](#features-left-to-implement)
-  - [Technologies used](#technologies-used)
-    - [Language Used](#language-used)
-  - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
-  - [Testing](#testing)
-    - [Navigation Bar](#navigation-bar-1)
-    - [Landing Page](#landing-page)
-    - [Footer](#footer-1)
-    - [Gallery Page](#gallery-page-1)
-    - [Order Form](#order-form-1)
-  - [Validator Testing](#validator-testing)
-    - [HTML](#html)
-    - [CSS](#css)
-    - [Lighthouse Testing](#lighthouse-testing)
-    - [Media Breakpoint Table](#media-breakpoint-table)
-  - [Development and Deployment](#development-and-deployment)
-  - [Content](#content)
-  - [Media](#media)
-- [](#)
-  - [Credits](#credits)
-------
-
+## Table of Content
 
 ------
 
-
+------
 
 ## User Experience (UX)
 
@@ -85,50 +40,40 @@ As a user/ potential customer of this website:
 - Quickly learn and understand what braaing is.
 - Understand what products and services are offered and how to order them.
 
-### Wireframes
-
-Wireframes were created for the home, gallery, and sign-up pages for both desktop and mobile. Some aspects of the wireframes have been modified during the website's production.
-
 #### Desktop
 
-![landing_page](assets/images//landing_page.png)
+![landing_page](assets/images//landing_page.webp)
 
-![product_display](assets/images/display_page.png)
+![product_display](assets/images/display_page.webp)
 
-![price_box](assets/images/price_box.png)
+![price_box](assets/images/price_box.webp)
 
 #### Mobile
 
-![mobile_landing_page](assets/images/mobile_one.png)
+![mobile_landing_page](assets/images/mobile_one.webp)
 
-![mobile_price](assets/images/mobile_price.png)
+![mobile_price](assets/images/mobile_price.webp)
 
 ### Design
 
 The design objective for the Braai Gifting Co website was to create a clean and simplistic layout that conveyed a sense of luxury. The website aimed to provide a stress-free shopping experience for customers looking for unique barbecue gift packages. The color scheme, fonts, and images were carefully selected to reinforce the brand message of luxury and simplicity while being easy to read and visually appealing. The website included features such as a navigation bar, icon container bar, box package menu, footer, gallery page, and order form, all aimed at improving user accessibility and navigation.
 
-## Color
+#### Colors
 
-The colors used in the website design are associated with specific meanings or emotions. The first-tier colors, including white, black, red, and grey, are inspired by the barbecue theme. Second-tier colors are used less frequently and are intended to draw the user's attention.
+The color selection for this website was inspired by the barbecue theme and is listed in the table below.
 
-![Primary Color Table](assets/images/color_table.png)
+| Color Code | Name  | Color Semantics      |
+| ---------- | ----- | -------------------- |
+| #ffffff    | White | Background           |
+| #020000    | Black | Text                 |
+| #bc0000    | Red   | Call-to-Action (CTA) |
+| #892a1c    | Red   | Tab hover            |
+| ##fcc3c2   | Pink  | CTA hover            |
+| #74747c    | Grey  | Filler               |
 
+![primary_color_table](assets/images/color_one.webp)
 
-
-![](assets/images/second_color_table.png)
-
-| Color Code | Name   | Color Semantics            |
-| ---------- | ------ | -------------------------- |
-| #F0F0F0    | White  | Background                 |
-| #0d314b    | Black  | Text                       |
-| #BC0000    | Red    | Call-to-Action (CTA)       |
-| #CFCFCF    | Grey   | Secondary background color |
-| #27289B    | Blue   | Information                |
-| #748340    | Green  | Success                    |
-| #f44336    | Orange | Warning                    |
-| #892a1c    | Red    | Tab hover                  |
-| #a62639    | Red    | CTA hover                  |
-| #ffffff    | White  | Default color              |
+![secondary_color_table](assets/images/color_two.webp)
 
 ### Typography
 
@@ -140,8 +85,6 @@ The selection of the fonts reinforce the brand message of luxury and simplicity 
 | Lora         | Headings       |
 | Hind Madurai | Tabs           |
 | Aboreto      | Logo           |
-
-### Images
 
 ## Features
 
@@ -155,47 +98,42 @@ The selection of the fonts reinforce the brand message of luxury and simplicity 
 
 - The navbar's simplistic design makes it very intuitive for the user to use.
 
-  ![](assets/images/navbar.png)
+  ![navbar_screenshot](assets/images/navbar.webp)
 
-#### Icon Container Bar
+  
+
+### Icon Container Bar
 
 - Icon container bar is the secondary navigation panel.
-
 - It is only found on the landing page at the end of each section.
-
 - The bar only contain internationally recognized icons to help improve user accessibility.
 
-  ![](assets/images/icon_container_bar.png)
+![icon_container_bar_screenshot](assets/images/icon_container_bar.webp)
 
-#### Box Package Menu
+### Box Package Menu
 
 - The change in format help draw user attention.
 
-- This improves user accessibility by prioritizing information.
+- The price is the only text in red (#f4c2c1), which helps prioritize information and improves readability.
 
-- The price is the only text in red, which helps prioritize information for user accessibility.
+  ![prices_screenshot](assets/images//box_menu.webp)
 
-  ![](assets/images//box_menu.png)
-
-#### Footer
+### Footer
 
 - The footer is present on every page of the website, and it is fully responsive.
-
 - No text-only icons are used in the footer to help improve accessibility and user navigation.
-
 - The icon provide buttons connect to social media sites where the company it registered and opens up in a new tab.
 
-  ![](assets/images//footer.png)
+![footer_screenshot](assets/images//footer.webp)
 
-#### Gallery Page
+### Gallery Page
 
 - The gallery page contains no text, except for the header and footer.
-
 - This improves user accessibility, especially for those with visual impairments or language barriers.
 
-  ![](assets/images//gallery_img.png)
+![gallery_screenshot](assets/images//gallery_img.webp)
 
-#### Order Form
+### Order Form
 
 - Typeform was chosen due to the large amount of information that needs to be captured in a business transaction.
 
@@ -205,64 +143,82 @@ The selection of the fonts reinforce the brand message of luxury and simplicity 
 
 - It also helps prevent inaccurate client data by providing feedback to the user if the information required by the business is incorrect.
 
-  ![](assets/images//order_form.png)
+  ![order_form_screenshot](assets/images//order_form.png)
 
-### Features Left to Implement
+  
 
-- When a user hovers over them, the icons in the icon container bar change.
-- Introducing a video on landing page demonstrating the product.
-- Add more photos of satisfied customers, meals, and outdoor events to the gallery page.
+  ## Features Left to Implement
 
-## Technologies used
+  - When a user hovers over them, the icons in the icon container bar change.
+  - Introducing a video on landing page demonstrating the product.
+  - Add more photos of satisfied customers, meals, and outdoor events to the gallery page.
 
-### Language Used
+  
 
-- HTML5
-- CSS3
+  ## Technologies used
 
-## Frameworks, Libraries & Programs Used
+  ### Language Used
 
-- Visual Studio Code:
+  - HTML5
+  - CSS3
 
-  - VS code was used as a Integrated Development Environment (IDE).
+  ### Frameworks, Libraries & Programs Used
 
-- Chrome DevTools:
-
-  - Chrome DevTools was used to consistently check the site in terms of design output (html, css).
-
-- Google Chrome:
-
-  - Google Chrome was used as my primary web browser.
-
-- Firefox:
-
-  - Firefox was used as secondary web browser for testing purposed.
-
-- Polypane:
-
-  - Polypane was used a multi-page browser to see how their website looks across different devices and screen sizes simultaneously.
-
-- Coolers:
-
-  - Coolers website used for generating color schemes.
-
-- Am I Responsive:
-
-  - Am I Responsive takes mockup screenshots of various breakpoints for my README.md file.
-
-- Typeform:
-
-  - Typeform is a platform for creating online forms and surveys with a focus on user experience.
-
-- Figma:
-
-  - Figma is a web-based design and prototyping tool that I used for the wireframes.
+  - [Visual Studio Code:](https://code.visualstudio.com/)
+    - VS code was used as a Integrated Development Environment (IDE).
+  - [Chrome DevTools:](https://developer.chrome.com/docs/devtools/)
+    - Chrome DevTools was used to consistently check the site in terms of design output (html, css).
+  - [Google Chrome:](https://www.google.com/intl/en_uk/chrome/dr/download/?brand=YTUH&gclid=Cj0KCQjwl8anBhCFARIsAKbbpyTVJMjZOaUUknZ3woPPaqI7zs1N7bSbiecK3h-vgJXNajHFR1KRtXMaArYnEALw_wcB&gclsrc=aw.ds)
+    - Google Chrome was used as my primary web browser.
+  - [Firefox:](https://www.mozilla.org/en-GB/firefox/new/?utm_medium=paidsearch&utm_source=google-rsa&utm_campaign=fxeu&utm_content=A144_A203_302582&gclid=EAIaIQobChMI_LeGhoqJgQMVQ4hQBh3zygbPEAAYASAAEgKXTPD_BwE)
+    - Firefox was used as secondary web browser for testing purposed.
+  - [Polypane:](https://polypane.app/)
+    - Polypane was used a multi-page browser to see how their website looks across different devices and screen sizes simultaneously.
+  - [Coolers:](https://coolors.co/cfcfcf-545f66-f18805-d95d39-581f18)
+    - Coolers website used for generating color schemes.
+  - [Am I Responsive:](https://ui.dev/amiresponsive)
+    - Am I Responsive takes mockup screenshots of various breakpoints for my [README.md](http://readme.md/) file.
+  - [Typeform:](https://www.typeform.com/)
+    - Typeform is a platform for creating online forms and surveys with a focus on user experience.
+  - [Figma:](https://www.figma.com/community/tag/landing%20page/files)
+    - Figma is a web-based design and prototyping tool that I used for the wireframes.
 
   
 
   ## Testing
 
-  
+  The website's functionality has been tested, and the results are shown in the following tables. Each section of the website has been tested according to its respective feature, and tests have been conducted using the following tools on various devices and screen resolutions:
+
+  - Google DevTools
+  - Polypane
+  - Firefox
+
+###  	Media Breakpoint Table
+
+​	The guidelines for CSS media breakpoints were compiled  from various sources, listed in the Credits section of the  README file, 	to create a table of the most commonly used  breakpoints worldwide. The default code is written using a mobile-first approach, with 	a width of 320px.
+
+​	**World Wide Popular Screen Sizes:**
+
+| Resolution | Device            | Percentage of Usage |
+| ---------- | ----------------- | ------------------- |
+| 360x640    | Extra-Extra-Small | 7.28%               |
+| 375x667    | Extra-Small       | 3.75%               |
+| 414x896    | Small             | 4.58%               |
+| 1366x768   | Extra-Large       | 8.44%               |
+| 1536x864   | Extra-Extra-Large | 3.88%               |
+| 1920x1080  | Extra-Extra-Large | 8.89%               |
+
+### 	Project Media Breakpoint Settings:
+
+| Resolution             | Device            |
+| ---------------------- | ----------------- |
+| 481 x767               | Small             |
+| 768 x 1024 (portrait)  | Small -Medium     |
+| 768 x 1024 (landscape) | Large             |
+| 1025 x 1280            | Large             |
+| 1281 x higher          | Extra-Extra-Large |
+
+### 	
 
 ### Navigation Bar
 
@@ -273,12 +229,7 @@ The selection of the fonts reinforce the brand message of luxury and simplicity 
 | Order nav button    | When clicked it will direct the user to the order form in the same tab | Clicked order nav button                 | Pass   |
 | Nav menu responsive | Website is responsive to multiple different screen sizes     | Resized browser on multiple screen sizes | Pass   |
 
-### Landing Page
-
-| Feature               | Expect                                               | Action                                   | Result |
-| --------------------- | ---------------------------------------------------- | ---------------------------------------- | ------ |
-| Text is responsive    | Text responsive to multiple different screen sizes   | Resized browser on multiple screen sizes | Pass   |
-| Images are responsive | Images responsive to multiple different screen sizes | Resized browser on multiple screen sizes | Pass   |
+### 	
 
 ### Footer
 
@@ -287,11 +238,24 @@ The selection of the fonts reinforce the brand message of luxury and simplicity 
 | Footer icon links    | Link are not broken                                  | Click on each footer icon on all the pages | Pass   |
 | Footer is responsive | Footer responsive to multiple different screen sizes | Footer browser on multiple screen sizes    | Pass   |
 
+### 	
+
+### Landing Page
+
+| Feature               | Expect                                               | Action                                   | Result |
+| --------------------- | ---------------------------------------------------- | ---------------------------------------- | ------ |
+| Text is responsive    | Text responsive to multiple different screen sizes   | Resized browser on multiple screen sizes | Pass   |
+| Images are responsive | Images responsive to multiple different screen sizes | Resized browser on multiple screen sizes | Pass   |
+
+### 	
+
 ### Gallery Page
 
 | Feature                       | Expect                                               | Action                                   | Result |
 | ----------------------------- | ---------------------------------------------------- | ---------------------------------------- | ------ |
 | Gallery images are responsive | Images responsive to multiple different screen sizes | Resized browser on multiple screen sizes | Pass   |
+
+
 
 ### Order Form
 
@@ -301,67 +265,78 @@ The selection of the fonts reinforce the brand message of luxury and simplicity 
 | Order form submit button | Form submits when the submit button is clicked               | Clicked the submit button on the form                        | pass   |
 | Order form responsive    | Form should be responsive on all screen sizes                | Resized browser and checked form on different screen resolutions | pass   |
 
+
+
 ## Validator Testing
 
-### HTML
+**HTML**
 
-No errors were returned when site was passed through the official [W3C Validator]
+No errors were found when the site was passed through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleoniemclaughlin7.github.io%2FVincent-Van-Gogh%2F) using the URL input format.
 
-![html_validation](assets/images//html_validation.png)
+![html_validation_screenshot](assets/images//html_validation.webp)
+
+
 
 ### CSS
 
-No errors were returned when the site was passed through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fleoniemclaughlin7.github.io%2FVincent-Van-Gogh%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) 
+The site passed through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fleoniemclaughlin7.github.io%2FVincent-Van-Gogh%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) without any errors when using the input format.
 
-![css_validation](assets/images//css_validation.png)
+![css_validation_screenshot](assets/images//css_validation.webp)
+
 
 
 ### Lighthouse Testing
-![lighthouse_test](assets/images/lighthouse_test.png)
 
-### Media Breakpoint Table
-
-The guidelines for CSS media breakpoints were compiled from various sources listed in the Credits section of the README file to create a table of the most commonly used breakpoints worldwide. The device labels are used in the CSS code.
-
-| Resolution | Device            | Percentage of Usage |
-| ---------- | ----------------- | :------------------ |
-| 360x640    | Extra-Extra-Small | 7.28%               |
-| 375x667    | Extra-Small       | 3.75%               |
-| 414x896    | Small             | 4.58%               |
-| 1366x768   | Extra-Large       | 8.44%               |
-| 1536x864   | Extra-Extra-Large | 3.88%               |
-| 1920x1080  | Extra-Extra-Large | 8.89%               |
-
-Note, that mobile screens smaller than 306 x 640 can only view the website horizontally.
+![lighthouse_testing_screenshot](assets/images//lighthouse.webp)
 
 
 
-  ## Development and Deployment
+## **Known Bugs**
 
-  The site was deployed to GitHub pages. The steps to deploy are as follows:
+Below is a list of known bugs in the website.
 
-  1. Navigate to GitHub.
-  2. Choose the desired GitHub repository.
-  3. Select settings from the top menu bar.
-  4. On the left hand side, under the code and automation section, choose pages.
-  5. Under the build and deployment heading, set branch as main and click save.
-  6. The website will deploy, a link to the project will be seen at the top of the page.
+| Bug                                                      | Status | Solution                                              |
+| -------------------------------------------------------- | ------ | ----------------------------------------------------- |
+| Gallery page footer did not stick to button of the page. | fixed  | Modified sample code from the "Stick Footer" article. |
+
+
+
+## **Development and Deployment**
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. Navigate to GitHub.
+2. Choose the desired GitHub repository.
+3. Select settings from the top menu bar.
+4. On the left hand side, under the code and automation section, choose pages.
+5. Under the build and deployment heading, set branch as main and click save.
+6. The website will deploy, a link to the project will be seen at the top of the page.
+
+
 
 ## Content
 
-The website content is original. 
+The website content is original.
 
-## Media
 
-#
 
 ## Credits
 
 - Media Breakpoint Table:
   - [Screen Size Map](https://screensizemap.com/)
   - [Browse Stack](https://www.browserstack.com/guide/what-are-css-and-media-query-breakpoints)
+- Sticky Footer Article:
+  - https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 
 
 
+## Acknowledgements
 
+This site was developed as a third portfolio project for the Code Institute course in Full Stack Software Development. I would like to thank the following for all of the support throughout the development phase.
 
+- The Code Institute community, including fellow students and staff.
+- The Code Institute tutor team.
+
+Johann Jurgens Blignaut 2023
+
+*"Omnis gloria Deo"*

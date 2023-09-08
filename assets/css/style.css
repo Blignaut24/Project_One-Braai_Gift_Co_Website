@@ -40,13 +40,13 @@ nav {
   font-family:var(--tabs);
   font-size:80%;
   padding:1rem;
-  background-color:black;
+  background-color: #020000;
 }
 /*logo*/
 nav h1 a {
   font-family:Aboreto,sans-serif;
   font-size:2.5rem;
-  color:white;
+  color:#ffffff;
 }
 .logo_text:hover {
   font-style:italic;
@@ -72,8 +72,8 @@ nav .tab {
   font-size:1.5em;
 }
 nav .tab:hover {
-  color:#adadad;
-  border-bottom:1px solid #892a1c;
+  color:#74747c;
+  border-bottom:1px solid #bc0000;
 }
 /*order button*/
 .button {
@@ -88,8 +88,8 @@ nav .tab:hover {
   padding-bottom:1rem;
 }
 .button:hover {
-  color:black;
-  background-color:#a62639;
+  color:#707070;
+  background-color:#fcc3c2;
 }
 /*hero image and text section*/
 .hero-image-section {
@@ -118,7 +118,7 @@ nav .tab:hover {
   flex-wrap:nowrap;
   background-size:cover;
   font-family:montserrat,Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;
-  background-color:#3D3D3D;
+  background-color:#74747c;
   color:white;
   justify-content:center;
   align-items:center;
@@ -153,13 +153,13 @@ p.welcome-paragraph {
 }
 /*Horizontal line */
 .horizontal-line {
-  border-top:5px solid #1e1e1e;
+  border-top:5px solid #020000;
   /* Can adjust line properties here e.g,thickness */
 margin-top:20px;
 }
 /* horizontal line */
 .horizontal-line {
-  border-top:5px solid #1e1e1e;
+  border-top:5px solid #020000;
   /* Can adjust line properties here e.g,thickness */
 margin-top:20px;
 }
@@ -254,8 +254,9 @@ height:fit-content;
   margin:auto;
 }
 .pricing-table {
-  border:1px solid black;
+  border:1px solid #a6a7ac;
   color:white;
+  background-color: #020000;
   padding:1%;
   text-align:center;
   width:100%;
@@ -269,7 +270,7 @@ height:fit-content;
   font-size:3rem;
   margin-bottom:20px;
   font-family:Lora,sans-serif;
-  color:#000
+  color: white;
 }
 ul {
   list-style-type:none;
@@ -278,11 +279,11 @@ ul {
 }
 ul li {
   font-size:1rem;
-  color:#00072D;
+  color:white ;
 }
 .price-tag {
-  color:#BC0000;
-  font-size:xx-large;
+  color: #f4c2c1;
+  font-size: 225%;
   font-family:Aboreto,sans-serif;
 }
 
@@ -329,10 +330,10 @@ div.contact-paragraph {
 /* footer*/
 footer {
   height:fit-content;
-  background-color:#000;
+  background-color:#020000;
 }
 ul.social-networks {
-  background-color:#000;
+  background-color:#020000;
   margin-bottom:0;
 }
 .social-networks {
@@ -365,10 +366,10 @@ ul.social-networks {
 /*gallery - footer*/
 footer {
   height:fit-content;
-  background-color:#000;
+  background-color:#020000;
 }
 ul.social-networks {
-  background-color:#000;
+  background-color:#020000;
   margin-bottom:0;
 }
 .social-networks {
