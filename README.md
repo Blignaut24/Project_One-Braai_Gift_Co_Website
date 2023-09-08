@@ -143,11 +143,11 @@ The selection of the fonts reinforce the brand message of luxury and simplicity 
 
 - It also helps prevent inaccurate client data by providing feedback to the user if the information required by the business is incorrect.
 
-  ![order_form_screenshot](assets/images//order_form.png)
+  ![order_form_screenshot](assets/images//order_form.webp)
 
   
 
-  ## Features Left to Implement
+## Features Left to Implement
 
   - When a user hovers over them, the icons in the icon container bar change.
   - Introducing a video on landing page demonstrating the product.
@@ -185,7 +185,7 @@ The selection of the fonts reinforce the brand message of luxury and simplicity 
 
   
 
-  ## Testing
+## Testing
 
   The website's functionality has been tested, and the results are shown in the following tables. Each section of the website has been tested according to its respective feature, and tests have been conducted using the following tools on various devices and screen resolutions:
 
